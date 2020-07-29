@@ -157,8 +157,6 @@ export function test(t) {
           );
           t.expect(androidLocationPermissionKeys).toContain('accuracy');
         }
-
-        console.log('yszty: ', JSON.stringify(result));
       });
     });
   });
